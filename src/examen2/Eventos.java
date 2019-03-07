@@ -5,7 +5,10 @@
  */
 package examen2;
 
+import com.itextpdf.text.Document;
 import com.itextpdf.text.DocumentException;
+import com.itextpdf.text.Paragraph;
+import com.itextpdf.text.pdf.PdfWriter;
 import static examen2.Ventana.btnPDF;
 import static examen2.Ventana.btnRealizar;
 import static examen2.Ventana.cbHoroscopos;
@@ -13,6 +16,7 @@ import static examen2.Ventana.lblRes;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
