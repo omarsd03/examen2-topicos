@@ -30,6 +30,8 @@ public class ArchivoPDF {
         Paragraph p = new Paragraph(parrafo);
         documento.add(p);
         
+        documento.close();
+        
     }
     
 }
